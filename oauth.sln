@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7E6844BC-EA6B-413A-8DD1-C9543F653EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oauth.Identity", "src\oauth.Identity\oauth.Identity.csproj", "{27C21DAB-393C-45CC-96A3-9104241F6750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oauth.Mobile", "src\oauth.Mobile\oauth.Mobile.csproj", "{F19F2987-CFB7-4FF6-BF23-4E496EC0080D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27C21DAB-393C-45CC-96A3-9104241F6750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C21DAB-393C-45CC-96A3-9104241F6750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C21DAB-393C-45CC-96A3-9104241F6750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C21DAB-393C-45CC-96A3-9104241F6750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F19F2987-CFB7-4FF6-BF23-4E496EC0080D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19F2987-CFB7-4FF6-BF23-4E496EC0080D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19F2987-CFB7-4FF6-BF23-4E496EC0080D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19F2987-CFB7-4FF6-BF23-4E496EC0080D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27C21DAB-393C-45CC-96A3-9104241F6750} = {7E6844BC-EA6B-413A-8DD1-C9543F653EE5}
+		{F19F2987-CFB7-4FF6-BF23-4E496EC0080D} = {7E6844BC-EA6B-413A-8DD1-C9543F653EE5}
+	EndGlobalSection
+EndGlobal
